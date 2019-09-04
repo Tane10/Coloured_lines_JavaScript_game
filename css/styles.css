@@ -1,0 +1,218 @@
+table, tr, td,.pixelGride{
+	border: 1px solid black;
+	color: transparent;
+
+}
+
+table{
+	    border-collapse: collapse;
+	    margin: 0px;
+	    border: 0px ;
+	 
+}
+
+td{
+	width: 50px;
+	height: 50px;
+}
+
+.Red{ 
+
+	background-color: red;
+}
+
+.Green{
+	background-color: green;
+}
+
+.White{
+	background-color: white;
+}
+
+.pixelGrid{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}	
+
+
+.topDivBB{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	width: 61.5%;
+	height:26.5%;
+	left:19.3%;
+	top: 17%;
+	background-color: green;
+}
+
+.middleDivBB{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	width: 6%;
+	height:20%;
+	left:49.7%;
+	top: 43.5%;
+	background-color: blue;
+}
+
+.bottomLeftDivBB{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	width: 24.3%;
+	height:33%;
+	left:19.3%;
+	top: 50%;
+	background-color: yellow;
+}
+
+.bottomRightDivBB{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	width: 19.5%;
+	height: 33%;
+	right: 19%;
+	top: 50%;
+	background-color: yellow;
+}
+
+.bottomMiddleDivBB{
+
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	width: 18.3%;
+	height:13%;
+	left:43.5%;
+	bottom: 17%;
+	background-color: blue;
+}
+
+
+
+
+
+body { /*disable user highlight*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */
+    margin: 0px;
+    border: 0px;
+    background-color: #ff6b6b;
+}
+
+
+.homepage{
+	margin: 0px;
+	border: 0px;
+	position: absolute;
+	
+}
+
+/*home page */
+.startButton{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    padding: 5px;
+    width: 19%;
+    height: 5%;
+    background-color: transparent;
+    
+}
+
+.howToButton{
+	position: absolute;
+    top: 75%;
+    left: 40%;
+    padding: 5px;
+    width: 19%;
+    height: 5%;
+    background-color: transparent;
+    	
+}
+
+.quitButton{
+	position: absolute;
+    top: 88.5%;
+    left: 40%;
+    padding: 5px;
+    width: 19%;
+    height: 5%;
+    background-color: transparent;
+   
+}
+
+
+
+video{
+	position: absolute;
+	left: 15%;
+	top:5%;
+}
+
+.VideoPage{
+	background-color: #ff6b6b;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #ff6b6b; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #ff6b6b;
+    padding: 20px;
+    border: 1px solid #888;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12.5%;
+    width: 50%;
+    
+}
+.retryButtonModal{
+    position: absolute;
+    margin: 0 auto;
+    left: 25%;
+    bottom: 25%;
+}
+
+.quitButtonModal{
+    position: absolute;
+    margin: 0 auto;
+    right: 25%;
+    bottom: 25%;
+   
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.yourFree{
+	display: block;
+    margin: 0 auto;
+    
+}

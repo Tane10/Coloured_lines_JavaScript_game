@@ -1,0 +1,12 @@
+.innerBackGround{
+	background-color: lightblue;
+	width: 500px;
+	height: 500px;
+}
+
+.canvasDiv{
+	background-color: lightgray;
+	width: 300px;
+	height: 300px;
+	position: left: 10px;
+}
